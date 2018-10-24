@@ -1,0 +1,31 @@
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,form,table,td,th,dl,dt,dd,fieldset,legend,input{
+  margin:0;
+  padding:0;
+}
+html,body{
+  height:100%;
+  display:-webkit-flex;
+  flex-direction:column;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif, 'Lucida Grande', Verdana;
+}
+body{
+  background: #ffffff;
+}
+html{
+  font-size:26.67VW;
+}
+a{
+  text-decoration:none;
+}
+ol,ul{
+  list-style:none;
+}
+input{
+  outline:none;
+  border:none;
+}
+img{
+  display:block;
+}
